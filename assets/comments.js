@@ -3,7 +3,7 @@
    Until then it runs in local mode (per-browser). Updating this file does NOT require re-encrypting pages. */
 (function(){
   "use strict";
-  var GAS_ENDPOINT = ""; /* <<< PASTE Apps Script web-app /exec URL here to enable shared storage */
+  var GAS_ENDPOINT = "https://script.google.com/macros/s/AKfycbxoN15vZRbTj9m8QOOFN4JMkePmXuWk3sbkLRZbjKpKwrr3NTPxMEFSBPDrzJ2dg2ch/exec"; /* <<< PASTE Apps Script web-app /exec URL here to enable shared storage */
   var USERS = [{name:"Richard",color:"#1f6db0"},{name:"Jessica",color:"#b9770e"}];
   var PAGE = (location.pathname||"/").replace(/index\.html$/,"");
   var TITLE = (document.title||location.pathname||"").slice(0,200);
